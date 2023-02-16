@@ -252,6 +252,8 @@ Two patterns of detection are required: reception during initial screen display 
 ```js
 //read rxjs.operators
 op = require("/node_modules/rxjs/operators");
+rxjs = require("/node_modules/rxjs");
+
 //Aggregate Transaction detection
 bondedListener = listener.aggregateBondedAdded(bob.address);
 bondedHttp = txRepo
